@@ -9,7 +9,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '27382550'))
 API_HASH = environ.get('API_HASH', 'c428034cb811de290315501d8e3c82b5')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7738753993:AAGMybczSBX7ISZYWAx9X0ZOjK1c4Rtx3xQ")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7728454503:AAF8PB2faAWpzTneb7ZOXIX0pG9kUx32OcU")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
@@ -55,9 +55,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rolexxxxxz:Rolexxxxxz@cluster0.sgyin.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rolexxxxxz")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'trlcollection')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://aml:aml@cluster0.zq1ck.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_NAME = environ.get('DATABASE_NAME', "amlfilterbot")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'amlcollection')
 
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
 
